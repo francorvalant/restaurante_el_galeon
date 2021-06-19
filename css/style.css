@@ -185,16 +185,16 @@ header .textos h3{
 /* ------ .. GALERIA  .. ------ */
 
 .main .galeria{
+    width: 100%;
+    text-align: center;
     overflow: hidden;
     margin-top: 200px;
-    margin-bottom: 200px;
 }
 
 .main .galeria .foto{
-    width: 19%;
+    width: 19.6%;
     float: left;
-    text-align: center;
-    margin: 9px;
+    margin: 0.2%;
 }
 
 .main .galeria .foto img{
@@ -214,7 +214,7 @@ header .textos h3{
 
 .main .ubicacion{
     background: #fff;
-    padding: 150px 0 200px;
+    padding: 200px 0 200px;
     overflow: hidden;
 }
 
@@ -269,7 +269,7 @@ header .textos h3{
 
 footer{
     height: 300px;
-    margin-top: 200px;
+    margin-top: 150px;
     background: url('../img/fondo-footer.png');
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
@@ -339,10 +339,11 @@ footer .tercer-footer a:hover{
 
     header .menu a{
         margin: 10px 20px;
+        font-size: 18px;
     }
 
     header .textos .nombre{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     header .textos h3{
@@ -370,7 +371,10 @@ footer .tercer-footer a:hover{
     }
 
     .main .galeria .foto{
-        width: 50%;
+        width: 40%;
+        text-align: center;
+        margin-left: 40px;
+        margin-top: 10px;
     }
 
     .main .mapa{
@@ -378,6 +382,20 @@ footer .tercer-footer a:hover{
         margin: auto;
     }
 
+    footer .primer-footer img{  
+        height: 70px;
+    }
+
+    footer .segundo-footer h3{
+        font-size: 30px;
+    }
+
+    footer .tercer-footer a{
+        font-size: 14px;
+        margin: 15px;
+        text-align: center;
+        margin-left: 0;
+    }
 
     @media screen and (max-width: 400px) {
     
@@ -385,8 +403,5 @@ footer .tercer-footer a:hover{
             font-size: 35px;
             margin-bottom: 10px;
         }
-
-        
     }
-
 }
