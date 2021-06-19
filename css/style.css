@@ -106,7 +106,7 @@ header .textos h3{
     padding: 40px;
     width: 50%;
     position: relative;
-    top: 150px;
+    top: 600px;
     float: right;
     z-index: 1;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .45);
@@ -187,11 +187,14 @@ header .textos h3{
 .main .galeria{
     overflow: hidden;
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .main .galeria .foto{
-    width: 25%;
+    width: 19%;
     float: left;
+    text-align: center;
+    margin: 9px;
 }
 
 .main .galeria .foto img{
@@ -211,7 +214,7 @@ header .textos h3{
 
 .main .ubicacion{
     background: #fff;
-    padding: 200px 0 200px;
+    padding: 150px 0 200px;
     overflow: hidden;
 }
 
@@ -266,7 +269,7 @@ header .textos h3{
 
 footer{
     height: 300px;
-    margin-top: 150px;
+    margin-top: 200px;
     background: url('../img/fondo-footer.png');
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
