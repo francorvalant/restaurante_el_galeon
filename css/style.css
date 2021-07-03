@@ -9,6 +9,7 @@
 body{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 15px;
+    background: url('../img/bg-textura.png');
 }
 
 .contenedor{
@@ -22,7 +23,7 @@ body{
 
 header{
     width: 100%;
-    background: url('../img/bg.jpg') #480032;
+    background: url('../img/bg-fondo.jpeg') #480032;
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
@@ -182,39 +183,11 @@ header .textos h3{
     clear: both;
 }
 
-/* ------ .. GALERIA  .. ------ */
-
-.main .galeria{
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    margin-top: 200px;
-}
-
-.main .galeria .foto{
-    width: 19.6%;
-    float: left;
-    margin: 0.2%;
-}
-
-.main .galeria .foto img{
-    width: 100%;
-    vertical-align: top;
-    opacity: .7;
-}
-
-.main .galeria .foto img:hover{
-    opacity: 1;
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-}
-
 /* ------ .. UBICACION  .. ------ */
 
 .main .ubicacion{
     background: #fff;
-    padding: 200px 0 200px;
+    padding: 100px 0 100px;
     overflow: hidden;
 }
 
@@ -260,10 +233,56 @@ header .textos h3{
     overflow: hidden;
 }
 
+.main .mapa .titulo{
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
 .main .mapa iframe{
     width: 100%;
     max-height: 600px;
 }
+
+/* ------ .. GALERIA  .. ------ */
+
+.main .galeria .titulo{
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.main .galeria{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 100px;
+        margin-bottom: 100px;
+}
+
+.main .galeria .foto{
+    width: 19.6%;
+    float: left;
+    margin: 0.2%;
+}
+
+.main .galeria .foto img{
+    width: 100%;
+    vertical-align: top;
+    opacity: .4;
+}
+
+.main .galeria .foto img:hover{
+    opacity: 1;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
 
 /* ------ .. FOOTER  .. ------ */
 
@@ -316,6 +335,10 @@ footer .tercer-footer a{
 footer .tercer-footer a:hover{
     color: chocolate;
     text-decoration: underline;
+}
+
+footer h5{
+    margin-top: 40px;
 }
 
 

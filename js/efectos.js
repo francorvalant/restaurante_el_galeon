@@ -11,6 +11,7 @@ $(document).ready(function () {
         }, 2000 + (index * 500))
     })
 
+
     //Efecto Para el Titulo
     if ($(window).width() > 800) {
         $('header .textos').css({
@@ -24,7 +25,8 @@ $(document).ready(function () {
         }, 1500);
     }
 
-    //Efectos Scroll posicion pantalla
+
+    //Efectos Scroll - busca la posicion de la pantalla
     var acercaDe = $('#acerca-de').offset().top,
         menu = $('#platillos').offset().top,
         galeria = $('#galeria').offset().top,
@@ -57,6 +59,7 @@ $(document).ready(function () {
             scrollTop: ubicacion
         }, 500);
     });
+
 
 
 });
