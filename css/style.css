@@ -23,7 +23,7 @@ body{
 
 header{
     width: 100%;
-    background: url('../img/bg-fondo.jpeg') #480032;
+    background: url('../img/bg-fondo.jpeg') #000000;
     background-size: cover;
     background-attachment: fixed;
     background-position: center 0;
